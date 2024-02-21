@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
+  background-color: #fff;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -15,12 +16,17 @@ a {
 }
 
 .logo {
-  font-family: Railway;
+  font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2E2F42;
+  color: #4D5AE5;
+  text-transform: uppercase;
+}
+
+.first-navi {
+  font-weight: 500;
 }
 
 .main-link {
@@ -28,7 +34,11 @@ a {
 }
 
 .web {
-  color: #4D5AE5;
+  color: #2e2f42;
+}
+
+.main-address {
+  font-style: normal;
 }
 
 .mail-info, 
@@ -36,10 +46,10 @@ a {
   color: #434455;
 }
 
-.mail-info:hover,
-.mail-info:focus,
-.tel-info:hover,
-.tel-info:focus {
+.main-link:hover,
+.main-link:focus,
+.logo:hover,
+.logo:focus {
   color: #404BBF;
   text-decoration: underline;
 }
@@ -59,43 +69,45 @@ a {
 .main-title {
   font-size: 56px;
   line-height: 1.07;
-}
-
-.main-button {
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 
 .main-button {
   background-color: #4D5AE5;
   border-color: #4D5AE5;
   color: #FFF;
-}
-
-.plan-header {
-  display: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .text-title {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2E2F42;
+}
+
+.our-team-list {
+  background-color: #fff;
 }
 
 .our-team {
   background-color: #F4F4FD;
 }
 
-.our-team .text-title,
+/* .our-team .text-title,
 .our-team .text {
   text-align: center;
-}
+} */
 
 .section-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+  /* text-align: center; */
   color: #2E2F42;
+  text-transform: capitalize;
 }
 
 .info {
@@ -103,6 +115,6 @@ a {
   color: #F4F4FD;
 }
 
-.info .logo {
+/* .info .logo {
   color: #F4F4FD;
-}
+} */
