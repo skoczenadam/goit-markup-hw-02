@@ -1,0 +1,108 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Railway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #2E2F42;
+}
+
+.main-link {
+  color: #2E2F42;
+}
+
+.web {
+  color: #4D5AE5;
+}
+
+.mail-info, 
+.tel-info {
+  color: #434455;
+}
+
+.mail-info:hover,
+.mail-info:focus,
+.tel-info:hover,
+.tel-info:focus {
+  color: #404BBF;
+  text-decoration: underline;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #404BBF;
+  cursor: pointer;
+}
+
+.main-section {
+  background-color: #2E2F42;
+  color: #FFF;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.main-button {
+  letter-spacing: 0.04em;
+}
+
+.main-button {
+  background-color: #4D5AE5;
+  border-color: #4D5AE5;
+  color: #FFF;
+}
+
+.plan-header {
+  display: none;
+}
+
+.text-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
+}
+
+.our-team {
+  background-color: #F4F4FD;
+}
+
+.our-team .text-title,
+.our-team .text {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: #2E2F42;
+}
+
+.info {
+  background-color: #2E2F42;
+  color: #F4F4FD;
+}
+
+.info .logo {
+  color: #F4F4FD;
+}
